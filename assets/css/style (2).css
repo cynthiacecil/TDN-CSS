@@ -1,0 +1,12 @@
+body{
+    background-color:aliceblue;
+}
+.first h1{
+    width : 30rem;
+    }
+    .first p{
+        width :35rem;
+    }
+    .first .button{
+        display :flex;
+    }
