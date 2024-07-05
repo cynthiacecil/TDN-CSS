@@ -1,5 +1,13 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
 body{
-    
+    background-color: aliceblue;
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items: center;
+height: 100vh;    
 }
 .first{
     display: flex;
@@ -19,6 +27,7 @@ body{
 
     .button a {
         margin-top: 20rem;
+        
  text-decoration: none;
     background-color: teal;
     color: white;
@@ -29,6 +38,8 @@ body{
     padding-right: 10px;
     padding-left: 20px;
     margin-right: 20px;
+    justify-content: right;
+    align-items: right;
 }
 .grid{
     max-width: 50%;
@@ -38,4 +49,23 @@ body{
     height: 100%;
     border-radius: 3rem;
 
+}
+.body{
+    background-color: teal;
+}
+.figures{
+    display: flex;
+    justify-content: space-around;
+}.head{
+    
+    margin-left: 30rem;
+}
+.body .head{
+    color: white;
+}
+.figures{
+    color: white;
+}
+.edit{
+    font-size:6px ;
 }
